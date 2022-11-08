@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
 
 
 const Container = styled.div`
@@ -89,16 +91,16 @@ const Footer = () => {
                 </Desc>
                 <SocialContainer>
                     <SocialIcon color="3B5999">
-                        <Facebook />
+                        <FacebookIcon />
                     </SocialIcon>
                     <SocialIcon color="E4405F">
-                        <Instagram />
+                        <InstagramIcon />
                     </SocialIcon>
                     <SocialIcon color="55ACEE">
-                        <Twitter />
+                        <TwitterIcon />
                     </SocialIcon>
                     <SocialIcon color="E60023">
-                        <Pinterest />
+                        <PinterestIcon />
                     </SocialIcon>
                 </SocialContainer>
             </Left>
