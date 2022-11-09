@@ -4,7 +4,9 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import PinterestIcon from '@mui/icons-material/Pinterest';
-
+import RoomIcon from '@mui/icons-material/Room';
+import PhoneIcon from '@mui/icons-material/Phone';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 const Container = styled.div`
   display: flex;
@@ -83,7 +85,7 @@ const Footer = () => {
     return (
         <Container>
             <Left>
-                <Logo>LAMA.</Logo>
+                <Logo>Molla.</Logo>
                 <Desc>
                     There are many variations of passages of Lorem Ipsum available, but
                     the majority have suffered alteration in some form, by injected
@@ -122,13 +124,13 @@ const Footer = () => {
             <Right>
                 <Title>Contact</Title>
                 <ContactItem>
-                    <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South Tobinchester 98336
+                    <RoomIcon style={{ marginRight: "10px" }} /> 123, Nairobi Estate, Nairobi
                 </ContactItem>
                 <ContactItem>
-                    <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+                    <PhoneIcon style={{ marginRight: "10px" }} /> +254xxxxxxxxx
                 </ContactItem>
                 <ContactItem>
-                    <MailOutline style={{ marginRight: "10px" }} /> contact@lama.dev
+                    <MailOutlineIcon style={{ marginRight: "10px" }} /> contact@wechuli.07
                 </ContactItem>
                 <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
             </Right>
